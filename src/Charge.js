@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-function ChargeBank(props) {
+function ChargeBank(final) {
     const [charge, setCharge] = useState("");
     const chargeRate = final - final / 10
     return (
